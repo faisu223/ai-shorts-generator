@@ -2,8 +2,8 @@ import os
 from typing import Tuple, Optional, List, Callable
 import numpy as np
 import cv2
-from moviepy.editor import VideoFileClip
-from moviepy.video.fx.all import crop as mp_crop
+from moviepy import VideoFileClip
+from moviepy.video.fx import Crop as mp_crop
 
 
 def aspect_tuple(s: str) -> Tuple[int, int]:

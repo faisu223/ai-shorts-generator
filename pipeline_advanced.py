@@ -1,7 +1,7 @@
 import os, zipfile
 from typing import List, Dict, Tuple, Optional
 import numpy as np
-from moviepy.editor import VideoFileClip, TextClip, CompositeVideoClip, ImageClip
+from moviepy import VideoFileClip, TextClip, CompositeVideoClip, ImageClip
 from pytubefix import YouTube
 from faster_whisper import WhisperModel
 
